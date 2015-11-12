@@ -51,7 +51,6 @@ module.exports = {
   ],
   resolve: {
     alias: {
-      semantic: path.resolve(__dirname, 'semantic/dist/semantic.js'),
       actions: path.resolve(__dirname, 'wwwroot/js/actions'),
       components: path.resolve(__dirname, 'wwwroot/js/components'),
       constants: path.resolve(__dirname, 'wwwroot/js/constants'),
@@ -59,6 +58,8 @@ module.exports = {
       layouts: path.resolve(__dirname, 'wwwroot/js/layouts'),
       reducers: path.resolve(__dirname, 'wwwroot/js/reducers'),
       routes: path.resolve(__dirname, 'wwwroot/js/routes'),
+      semantic: path.resolve(__dirname, 'semantic/dist/semantic.js'),
+      store: path.resolve(__dirname, 'wwwroot/js/store'),
       utils: path.resolve(__dirname, 'wwwroot/js/utils'),
       views: path.resolve(__dirname, 'wwwroot/js/views')
     }
